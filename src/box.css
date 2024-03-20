@@ -13,9 +13,11 @@
   }
   .box.win {
     border-color: rgb(0, 115, 255);
+    margin-left: 30px;
   }
   .box.lose {
     border-color: rgb(255, 102, 0);
+    margin-left: 30px;
   }
   .box.tie {
     border-color: #ffffff;
