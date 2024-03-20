@@ -1,13 +1,36 @@
-.box{
-  border:1px solid black;
-  width:500px;
+.mainState{
+   background-color: #53bff9;
+  min-height: 100vh;
+}
+.gamename{
+  position:absolute;
+  left:45rem;
+  top:3rem;
+  color:aliceblue;
 }
 
-.item-img{
-  width:400px;
+.resultImg{
+  padding:3rem;
+  display:block;
+  width:300px;
 }
-
-.main{
+.main {
   display:flex;
   justify-content: center;
+  align-items: center;
+  }
+
+.iconsBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  }
+
+.button {
+  background-color: #1b3b25;
+}
+.button > img {
+  width: 50px;
+  height: 50px;
+  transition: transform 300ms ease-in-out;
 }
