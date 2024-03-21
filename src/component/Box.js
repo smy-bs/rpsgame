@@ -4,8 +4,10 @@ const Box = (props) => {
   //console.log("props", props);
   
   let result;
-  if(props.title === "Computer" && props.result !== "Tie" && props.result !== "") {
-    result = props.result === "Win" ? "Lose" : "Win"
+  if(props.title === "Computer" && 
+  props.result !== "Tie" && 
+  props.result !== "") {
+  result = props.result === "Win" ? "Lose" : "Win"
   } else {
     result = props.result;
   }
